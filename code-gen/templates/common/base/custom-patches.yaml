@@ -6,3 +6,13 @@ kind: ConfigMap
 metadata:
   name: custom-environment-variables
   namespace: ping-cloud
+
+---
+
+apiVersion: apps/v1
+kind: StatefulSet
+metadata:
+  name: pingdirectory
+  namespace: ping-cloud
+spec:
+  replicas: 2
