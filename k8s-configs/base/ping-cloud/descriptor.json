@@ -1,0 +1,10 @@
+{
+  "primary": {
+    "hostname": "pingdirectory-cluster.davidr1.ping-demo.com",
+    "replicas": 2
+  },
+  "secondary-0": {
+    "hostname": "pingdirectory-cluster.davidr2.ping-demo.com",
+    "replicas": 2
+  }
+}

@@ -1,0 +1,21 @@
+############################################################
+# Region-specific parameters
+############################################################
+# Region name and nick name. REGION must be valid AWS region name.
+REGION=us-west-2
+REGION_NICK_NAME=primary
+
+# Tenant domain suffix for customer for region
+TENANT_DOMAIN=davidr1.ping-demo.com
+
+# Customer-specific artifacts URL for region
+ARTIFACT_REPO_URL=s3://davidr1-artifacts-bucket
+
+############################################################
+# IRSA - IAM role for service accounts
+############################################################
+# Used by ping product pods
+IRSA_PING_ANNOTATION_KEY_VALUE=""
+
+# Annotation used by ingress-nginx service in ingress-nginx-public namespace
+NLB_NGX_PUBLIC_ANNOTATION_KEY_VALUE=""
